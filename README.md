@@ -7,6 +7,7 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
+
 ```
 ./mvnw quarkus:dev
 ```
@@ -28,3 +29,7 @@ Or you can use Docker to build the native executable using: `./mvnw package -Pna
 You can then execute your binary: `./target/poc-websocket-java-0.0.1-SNAPSHOT-runner`
 
 If you want to learn more about building native executables, please consult https://quarkus.io/guides/building-native-image-guide .
+
+# poc-websocket-java
+
+Uma POC para conhecer e testar os serviços de Java Socket
